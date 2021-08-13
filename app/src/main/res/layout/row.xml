@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="#568CE1DE"
     android:orientation="vertical"
     android:padding="10dp">
 
@@ -10,18 +11,19 @@
         android:id="@+id/txtName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
         android:text="TextView"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textStyle="bold"
-        android:layout_marginBottom="5dp"/>
+        android:textColor="#F11F67"
+        android:textStyle="bold" />
 
 
     <TextView
         android:id="@+id/txtDes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#288786"
-        android:text="TextView" />
+        android:text="TextView"
+        android:textColor="#CA285F" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -32,20 +34,20 @@
             android:id="@+id/txtMood"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView"
+            android:layout_marginRight="5dp"
             android:layout_marginBottom="5dp"
-            android:layout_marginRight="5dp"/>
+            android:text="TextView"
+            android:textColor="#9C27B0" />
 
         <TextView
             android:id="@+id/txtDate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView"
+            android:layout_marginRight="5dp"
             android:layout_marginBottom="5dp"
-            android:layout_marginRight="5dp"/>
+            android:text="TextView" />
 
     </LinearLayout>
-
 
 
 </LinearLayout>

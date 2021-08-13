@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFF1F1"
+    android:background="#FAF3F3"
     android:orientation="vertical"
     android:padding="5dp"
     tools:context=".MainActivity">
@@ -14,7 +14,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/title"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#CA285F" />
 
     <EditText
         android:id="@+id/edName"
@@ -27,7 +28,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/happen"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#CA285F" />
 
     <EditText
         android:id="@+id/edDes"
@@ -40,7 +42,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/mood"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#CA285F" />
 
     <EditText
         android:id="@+id/edMood"
@@ -53,7 +56,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/date"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#CA285F" />
 
     <EditText
         android:id="@+id/edDate"
@@ -73,7 +77,8 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
-            android:text="@string/butAdd" />
+            android:text="@string/butAdd"
+            app:backgroundTint="#00BCD4" />
 
         <Button
             android:id="@+id/butShowMem"
@@ -81,7 +86,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:layout_weight="1"
-            android:text="@string/butShow" />
+            android:text="@string/butShow"
+            app:backgroundTint="#9C27B0" />
 
     </LinearLayout>
 

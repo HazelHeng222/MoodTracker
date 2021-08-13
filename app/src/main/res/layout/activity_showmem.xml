@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".ShowActivity"
-    android:padding="5dp">
+    android:padding="5dp"
+    android:background="#FAF3F3">
 
     <ListView
         android:id="@+id/lv"
