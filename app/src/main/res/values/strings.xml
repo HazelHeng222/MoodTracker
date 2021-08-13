@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MoodTracker</string>
+    <string name="title">Name this Entry</string>
+    <string name="name">Entry Name</string>
+    <string name="edTitle"></string>
+    <string name="happen">Description</string>
+    <string name="edHappen">What Happened</string>
+    <string name="mood">Mood</string>
+    <string name="edMood">How you felt</string>
+    <string name="date">Date</string>
+    <string name="edDate">DD/MM/YYYY</string>
+    <string name="txtId">ID</string>
+
+    <string name="butAdd">Add Entry</string>
+    <string name="butShow">Show Entry</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="archive">archive</string>
+
+    <string name="title_activity_main">Add Entry</string>
+    <string name="title_activity_second">Show Entry</string>
+    <string name="title_activity_third">Modify Entry</string>
+
+
+</resources>
